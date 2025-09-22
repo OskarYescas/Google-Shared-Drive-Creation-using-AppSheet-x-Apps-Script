@@ -1,4 +1,21 @@
 # Google-Shared-Drive-Creation-using-AppSheet-x-Apps-Script
+
+## Core Technologies
+- Google AppSheet
+- Google Apps Script
+- Google Drive API 
+- Google Cloud Secret Manager
+- Google Workspace (Domain-Wide Delegation & Admin SDK)
+
+## Prerequisites
+Before you begin, ensure you have the following:
+
+- A Google Cloud project with billing enabled.
+- A Google Workspace account with Super Administrator privileges.
+- The Drive API and Secret Manager API enabled in your GCP project.
+- A dedicated "bot" user (e.g., sd-automator@domain.com) with a Google Workspace license that includes Shared Drives.
+- An AppSheet license.
+
 ## Phase 1: Google Workspace Setup (The "Bot" User & Policy)
 Goal: Create a licensed "bot" user and give it permission to create Shared Drives using the correct, granular service policy.
 
