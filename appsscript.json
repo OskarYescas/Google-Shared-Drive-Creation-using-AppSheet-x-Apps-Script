@@ -1,0 +1,17 @@
+{
+  "timeZone": "America/Mexico_City",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "OAuth2",
+      "libraryId": "1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF",
+      "version": "43"
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https.googleapis.com/auth/drive",
+    "https.googleapis.com/auth/cloud-platform",
+    "https://www.googleapis.com/auth/script.external_request"
+  ]
+}
